@@ -1,0 +1,180 @@
+body{
+	background: #ccc;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+/*Нижнее подчеркивание*/
+.underscore { 
+	text-decoration: underline;
+}
+
+
+header{
+	width: 1160px;
+	height: 230px;
+	margin: 0 auto;
+	background: url('../images/triangle.png') bottom center repeat-x #fff;
+}
+
+.head{
+	margin: 15px 0 0 110px;
+	float: left;
+}
+
+.head h1{
+	font-size: 48px;
+	font-weight: 300;
+	margin-top: 55px;
+}
+
+.info_text{
+	font: 12px;
+}
+
+.logo{
+	margin: 20px 110px 0 0;
+	float: right;
+}
+
+
+
+main{
+	width: 1160px;
+	min-height: 680px;
+	margin: 0 auto;
+	background: #eeeeee;
+	padding-bottom: 25px;
+}
+
+.view_comment{
+	margin: 0 110px;
+}
+
+.title{
+	width: 250px;
+	height: 35px;
+	padding-top: 15px; 
+/*	line-height: 80px;*/
+}
+
+.name{
+	width: 80px;
+	float: left;
+}
+
+.time{
+	float: left;
+	padding: 10px;
+	font-weight: lighter;
+	font-size: 10px;
+}
+
+.data{
+	float: left;
+	padding: 10px 0;
+	font-weight: lighter;
+	font-size: 10px;
+}
+
+.comment{
+	margin: 0 0 25px 0;
+	clear: both;
+	font-weight: lighter;
+	font-size: 14px;
+}
+
+hr{
+	margin: 0 110px;
+	color: #ccc;
+	background-color: #ccc;
+	height: 1px;
+}
+
+/*------Форма-------*/
+form{
+	margin-left: 110px;
+	width: 460px;
+}
+
+h2{
+	font-size: 24px;
+	font-weight: 400;
+	margin: 25px 0 25px 110px;
+}
+
+form p{
+	font-size: 14px;
+	font-weight: lighter;
+}
+.form_name{
+	height: 44px;
+	width: 460px;
+	padding-left: 20px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.form_comment{
+	height: 130px;
+	width: 460px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	border: 2px solid black;
+   -webkit-border-radius: 5px; /*закругление углов (Google Chrome)*/
+   -moz-border-radius: 5px; /*закругление углов (FireFox)*/
+   	border-radius: 5px; /*закругление углов (общее)*/
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+	resize: none;
+}
+
+.text-center {
+	text-align: right;
+}
+
+.submit-button {
+	display: inline-block;
+	margin-top: 10px;
+	width: 130px;
+	height: 40px;
+	border: 2px solid black;
+	background: #eeeeee;
+	-webkit-border-radius: 5px; /*закругление углов (Google Chrome)*/
+   -moz-border-radius: 5px; /*закругление углов (FireFox)*/
+   	border-radius: 5px; /*закругление углов (общее)*/
+}
+}
+
+footer{
+	width: 1160px;
+	height: 135px;
+	padding: 20px 0;
+	margin: 0 auto;
+/*	flex: 0 0 auto;*/
+	background: #fff;
+}
+
+.logo_bottom{
+	float: left;
+	width: 125px;
+	margin: 10px 0 0 110px;
+}
+
+.logo_bottom img{
+	width: 100%;
+	max-width: 100%;
+}
+
+.footer_info{
+	float: left;
+	margin: 0 0 0 35px;
+}
+
+.info_law{
+	font-weight: normal;
+}
